@@ -7,56 +7,50 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #040404;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+nav ul li a {
+    display: block;
+    color: #d7d9ce;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+ul li a:hover {
+    background-color: #119da4;
+    color: #000;
+}
+
 header {
-    background-image: url(images/Main\ header\ image.jpg);
+    background-image: url(images/resort-drone.jpg);
     background-size: cover;
     background-attachment: fixed;
-    border-bottom: #040404;
     background-position: center;
     text-align: center;
 }
 
 h1 {
-    color: #ffffff;
-    text-align: right;
-    padding-right: 10rem;
-    padding-bottom: 5rem;
-}
-
-ul {
-    background-color: #0c7489;
-}
-
-body, header,h1, ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    gap: 2rem;
-}
-
-ul li a {
-    flex-grow: 1;
-    display: inline-block;
-    text-decoration: none;
-    color: #d7d9ce;
-    background-color: #0c7489;
-    padding: 1.5rem;
-    font-weight: bold;
-    width: 100%;
-}
-
-ul li a:hover {
-    background-color: #119da4;
-    color: #040404;
-}
-
-h2 {
     text-align: center;
-    color: #13505b;
+    color: #ffffff;
+    text-shadow: 4px 4px 6px #13505b;
+}
+
+header p {
+    text-align: center;
+    color: #ffffff;
 }
