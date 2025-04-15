@@ -21,7 +21,7 @@ nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 nav ul li a {
@@ -42,23 +42,33 @@ header {
     background-attachment: fixed;
     background-position: center;
     text-align: center;
+    padding: 5rem 0;
 }
 
 h1 {
-    text-align: right;
+    text-align: center;
     color: #ffffff;
     text-shadow: 4px 4px 6px #13505b;
 }
 
-header p {
-    text-align: center;
-    color: #ffffff;
-}
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #63b3b7;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px #13505b;
+
+}
 h2 {
     text-align: center;
+    color: #d7d9ce;
 }
-
 
 
 #activities-header {
@@ -66,3 +76,32 @@ h2 {
     background-position: cover;
 }
 
+blockquote {
+    color: #d7d9ce;
+    background-color: #119da4;
+    border-radius: 10px;
+    border-left: 8px solid #2e2e2e;
+    padding: 2rem;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    background-color: #13505b;
+    color: #a8cbcd;
+    padding: 1rem 0;
+    width: 100%;
+
+}
+
+.read-more {
+    background-color: #d7d9ce;
+    text-decoration: none;
+    color: #119da4;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.read-more:hover {
+    background-color: #13505b;
+}
