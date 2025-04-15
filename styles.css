@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 ul li a:hover {
-    background-color: #119da4;
+    background-color: #d4e166;
     color: #000;
 }
 
@@ -119,10 +119,12 @@ img {
     border-radius: 4px;
     box-shadow: 0 4px 8px 2px rgba(0, 0, 0, .5);
     max-width: 100%;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 img:hover {
     transform: scale(1.1);
+    box-shadow: 0 8px 16px 4px rgba(0, 0, 0, .7);
 }
 
 #logo {
@@ -137,4 +139,9 @@ img:hover {
 ul, ol {
     list-style-position: inside;
     line-height: 1.5rem;
+}
+
+#favicon {
+    border: none;
+    box-shadow: none;
 }
