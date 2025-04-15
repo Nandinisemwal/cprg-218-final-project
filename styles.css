@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #d2af94;
+    background-color: #baa89a;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #d9e3e3;
 }
@@ -63,7 +63,7 @@ main {
     padding: 2rem;
     background-color: #828282;
     border-radius: 20px;
-    box-shadow: 0 6px 20px #13505b;
+    box-shadow: 0 6px 20px #0e1517;
 
 }
 h2 {
@@ -147,3 +147,18 @@ ul, ol {
     box-shadow: none;
 }
 
+#dining-heading {
+    background-image: url(images/pexels-valeriya-31235409.jpg);
+}
+
+#rooms-heading {
+    background-image: url(images/alice-kang-Bc_uN5PeErA-unsplash.jpg);
+}
+
+#spa-heading {
+    background-image: url(images/the-anam-X1s5YSBw8lU-unsplash.jpg);
+}
+
+#testimonials-heading {
+    background-image: url(images/sunset.jpg);
+}
