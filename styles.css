@@ -45,7 +45,7 @@ header {
 }
 
 h1 {
-    text-align: center;
+    text-align: right;
     color: #ffffff;
     text-shadow: 4px 4px 6px #13505b;
 }
@@ -54,3 +54,15 @@ header p {
     text-align: center;
     color: #ffffff;
 }
+
+h2 {
+    text-align: center;
+}
+
+
+
+#activities-header {
+    background-image: url(images/Activities\ header.jpg);
+    background-position: cover;
+}
+
