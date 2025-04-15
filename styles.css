@@ -88,6 +88,7 @@ blockquote {
     border-left: 8px solid #002037;
     padding: 2rem;
     font-size: large;
+    margin: 1.5rem 0;
 }
 
 footer {
@@ -166,3 +167,48 @@ ul, ol {
 #testimonials-heading {
     background-image: url(images/sunset.jpg);
 }
+
+@media screen and (max-width: 1024px) {
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        gap:0.5rem;
+        
+    }
+
+    nav ul li a {
+        text-align: center;
+    }
+    
+    img{
+        max-width: 90%;
+    }
+
+    #favicon {
+        width: 10%;
+    }
+
+    h1 {
+       font-size: 2rem;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    ul ol {
+        line-height: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    nav ul {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+}
+
