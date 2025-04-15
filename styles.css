@@ -91,8 +91,16 @@ footer {
     color: #a8cbcd;
     padding: 1rem 0;
     width: 100%;
-
 }
+
+button {
+    border-radius: 4px;
+    color: #13505b;
+}
+ button:hover {
+    background-color: #a8cbcd;
+    color: #040404;
+ }
 
 .read-more {
     background-color: #d7d9ce;
@@ -104,4 +112,29 @@ footer {
 
 .read-more:hover {
     background-color: #13505b;
+}
+
+img {
+    border: 2px solid #119da4;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, .5);
+    max-width: 100%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#logo {
+    border: none;
+    box-shadow: none;
+}
+
+#logo:hover {
+    transform: none;
+}
+    
+ul, ol {
+    list-style-position: inside;
+    line-height: 1.5rem;
 }
