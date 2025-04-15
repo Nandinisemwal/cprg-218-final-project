@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 
 body {
@@ -64,21 +65,21 @@ main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #828282;
+    background-color: #6d6b6b;
     border-radius: 20px;
     box-shadow: 0 6px 20px #0e1517;
-    width: 100%;
+    width: 1200%;
 
 }
+
 h2 {
     text-align: center;
-    color: #13505b;
+    color: #0d3941;
 }
 
 
 #activities-header {
     background-image: url(images/Activities\ header.jpg);
-    background-position: cover;
 }
 
 blockquote {
@@ -168,6 +169,24 @@ ul, ol {
     background-image: url(images/sunset.jpg);
 }
 
+.excursion-activity {
+    border-top: 2px solid rgb(64, 63, 63);
+}
+
+.Booking-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #838c8c;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px #0e1517;
+    width: 100%;
+}
+
 @media screen and (max-width: 1024px) {
     nav ul {
         margin: 0;
@@ -193,7 +212,7 @@ ul, ol {
        font-size: 2rem;
     }
 
-    body {
+    body{
         font-size: 18px;
     }
 
@@ -211,4 +230,3 @@ ul, ol {
         flex-wrap: nowrap;
     }
 }
-
