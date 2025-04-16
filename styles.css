@@ -56,6 +56,15 @@ h1 {
     text-shadow: 4px 4px 6px #13505b;
 }
 
+#weather {
+    background-color: #13505b;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: fit-content;
+    box-shadow: 4px 4px 6px #13505b;
+}
 
 main {
     display: flex;
@@ -92,13 +101,6 @@ blockquote {
     margin: 1.5rem 0;
 }
 
-footer {
-    text-align: center;
-    background-color: #13505b;
-    color: #a8cbcd;
-    padding: 1rem 0;
-    width: 100%;
-}
 
 button {
     border-radius: 4px;
@@ -185,6 +187,14 @@ ul, ol {
     box-shadow: 0 6px 20px #0e1517;
     width: 100%;
     max-width: 1200%;
+}
+
+footer {
+    text-align: center;
+    background-color: #13505b;
+    color: #a8cbcd;
+    padding: 1rem 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
