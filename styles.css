@@ -199,4 +199,22 @@ ul, ol {
         text-align: center;
         padding: 1rem;
     }
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    main, .Booking-info {
+        width: 90%;
+        padding: 1rem;
+    }
 }
