@@ -178,55 +178,25 @@ ul, ol {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 1200px;
     margin: 2rem auto;
     padding: 2rem;
     background-color: #838c8c;
     border-radius: 20px;
     box-shadow: 0 6px 20px #0e1517;
     width: 100%;
+    max-width: 1200%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     nav ul {
-        margin: 0;
-        padding: 0;
         flex-direction: column;
         gap:0.5rem;
-        
+        padding: 0;
+        margin: 0;
     }
 
     nav ul li a {
         text-align: center;
-    }
-    
-    img{
-        max-width: 90%;
-    }
-
-    #favicon {
-        width: 10%;
-    }
-
-    h1 {
-       font-size: 2rem;
-    }
-
-    body{
-        font-size: 18px;
-    }
-
-    ul ol {
-        line-height: 0.5rem;
-    }
-}
-
-
-@media screen and (min-width: 1025px) {
-    nav ul {
-        flex-direction: row;
-        gap: 1rem;
-        padding: 0;
-        flex-wrap: nowrap;
+        padding: 1rem;
     }
 }
